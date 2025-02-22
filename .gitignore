@@ -17,6 +17,8 @@
 [Dd]eployables/
 bin/
 obj/
+obj/*
+**/obj/*
 
 # Windows Installer files
 *.cab
