@@ -20,7 +20,6 @@ namespace ConsoleApp1.Fundamentos
             Console.WriteLine("Passou por média? {0}", nota >= notaDeCorte);
             Console.WriteLine("Recuperação? {0}", nota < notaDeCorte);
             Console.WriteLine("Reprovado? {0}", nota <= 3.0);
-
         }
     }
 }

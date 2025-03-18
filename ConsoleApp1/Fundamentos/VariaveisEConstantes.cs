@@ -20,7 +20,7 @@ namespace ConsoleApp1.Fundamentos
             double area = PI * raio * raio;
             Console.WriteLine(area);
             Console.WriteLine("Area é" + area);
-            
+
             //tipos internos
             bool estaChovendo = true;
             Console.WriteLine("Está chovendo" + estaChovendo);
@@ -41,7 +41,7 @@ namespace ConsoleApp1.Fundamentos
             Console.WriteLine("Menor Int" + menorValorInt);
 
             uint populacaoBrasileira = 207_987_766;
-            Console.WriteLine("População Brasileira" +  populacaoBrasileira);
+            Console.WriteLine("População Brasileira" + populacaoBrasileira);
 
             long menorValorLong = long.MinValue;
             Console.WriteLine("Menor Long" + menorValorLong);
@@ -53,12 +53,12 @@ namespace ConsoleApp1.Fundamentos
 
             //para armazenar um float é necessario colocar um ''f'' ao final do numero
             // se nao colocar o ''F'' estou dizendo ao programa que se trata de um double
-            
+
             float precoComputador = 6545.3f;
             Console.WriteLine("Preço Computador" + precoComputador);
 
             double valorDeMercadoDaApple = 1_000_000_000_000_000.00; // mais usado dos inteiros
-            Console.WriteLine("Valor Apple" +  valorDeMercadoDaApple);
+            Console.WriteLine("Valor Apple" + valorDeMercadoDaApple);
 
             decimal distanciaEntreEstrelas = decimal.MaxValue;
             Console.WriteLine("Distância das Estrelas" + distanciaEntreEstrelas);
@@ -68,15 +68,6 @@ namespace ConsoleApp1.Fundamentos
 
             string texto = "DeadPool vs Wolverine mt bom";
             Console.WriteLine(texto);
-
-       
- 
-
-            
-
-                
-
-
-                }
+        }
     }
 }

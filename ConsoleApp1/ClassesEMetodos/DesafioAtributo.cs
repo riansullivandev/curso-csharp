@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Fundamentos
+namespace ConsoleApp1.ClassesEMetodos
 {
-    internal class OperadoresLogicos
+    internal class DesafioAtributo
     {
-        public static void Executar() { }
+        public static void Executar()
+        {
+
+        }
     }
 }

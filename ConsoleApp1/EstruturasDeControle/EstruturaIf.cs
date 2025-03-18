@@ -27,11 +27,6 @@ namespace ConsoleApp1.EstruturasDeControle
             {
                 Console.WriteLine("Quadro de honra!");
             }
-
-
-
-
         }
-
     }
 }

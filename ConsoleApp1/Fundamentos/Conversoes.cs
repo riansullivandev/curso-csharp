@@ -15,7 +15,7 @@ namespace ConsoleApp1.Fundamentos
             Console.WriteLine(quebrado);
 
             double nota = 9.7;
-            int notaTruncada = (int) nota;
+            int notaTruncada = (int)nota;
             Console.WriteLine("Nota Truncada: {0}", notaTruncada);
 
             Console.Write("Digite a sua idade:");
@@ -35,13 +35,6 @@ namespace ConsoleApp1.Fundamentos
             Console.Write("Digite o segundo numero: ");
             int.TryParse(Console.ReadLine(), out int numero2);
             Console.WriteLine("Resultado 2: {0}, ", numero2);
-
-
-
-
-
-
         }
-
     }
 }

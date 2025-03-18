@@ -14,6 +14,5 @@ namespace ConsoleApp1.Fundamentos
             Console.WriteLine("Programa");
             Console.WriteLine("Terminou");
         }
-
     }
 }

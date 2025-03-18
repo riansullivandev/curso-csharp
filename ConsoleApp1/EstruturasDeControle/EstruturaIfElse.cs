@@ -8,7 +8,7 @@ namespace ConsoleApp1.EstruturasDeControle
 {
     internal class EstruturaIfElse
     {
-        public static void Executar ()
+        public static void Executar()
         {
             double nota = 7.0;
 

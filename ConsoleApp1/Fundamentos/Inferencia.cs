@@ -14,8 +14,6 @@ namespace ConsoleApp1.Fundamentos
             Console.WriteLine(nome);
             // nesse caso ocorreu uma ''inferencia'' o C# identificou
             // que se tratava de uma string e alterou o ''var''
-                
         }
-
     }
 }

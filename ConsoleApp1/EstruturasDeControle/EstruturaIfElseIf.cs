@@ -8,7 +8,7 @@ namespace ConsoleApp1.EstruturasDeControle
 {
     internal class EstruturaIfElseIf
     {
-        public static void Executar ()
+        public static void Executar()
         {
             Console.WriteLine(" Digite a nota do aluno: ");
 
@@ -18,7 +18,6 @@ namespace ConsoleApp1.EstruturasDeControle
             if (nota >= 9.0)
             {
                 Console.WriteLine("Quadro de honra!");
-
             }
             else if (nota >= 7.0 && nota < 9)
             {
@@ -33,8 +32,6 @@ namespace ConsoleApp1.EstruturasDeControle
                 Console.WriteLine("Ano que vem tenta dnv kakakakajjj");
             }
             Console.WriteLine("Fim");
-
-            
         }
     }
 }

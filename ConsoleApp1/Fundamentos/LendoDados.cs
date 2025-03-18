@@ -8,7 +8,7 @@ namespace ConsoleApp1.Fundamentos
 {
     internal class LendoDados
     {
-        public static void Executar ()
+        public static void Executar()
         {
             Console.Write(" Qual é o seu nome");
             string nome = Console.ReadLine();
@@ -18,9 +18,8 @@ namespace ConsoleApp1.Fundamentos
 
             Console.Write("Qual é o seu salário");
             double salario = double.Parse(Console.ReadLine());
-            
-            Console.WriteLine($" {nome} {idade} R${salario}");
 
+            Console.WriteLine($" {nome} {idade} R${salario}");
         }
     }
 }

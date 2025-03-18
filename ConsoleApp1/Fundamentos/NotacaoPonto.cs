@@ -14,11 +14,10 @@ namespace ConsoleApp1.Fundamentos
             // o ''.'' faz uma chamada e me da acesso a varias funcionalidades
 
             string valorImportante = null;
-            Console.WriteLine(valorImportante? .Length);
-            //null deixa uma variável sem valor, logo usar o ponto 
+            Console.WriteLine(valorImportante?.Length);
+            //null deixa uma variável sem valor, logo usar o ponto
             // e fazer uma chamada em um null causa um erro.
             // para corrigir basta usar um ''?'' e navegar seguro
         }
-
     }
 }
